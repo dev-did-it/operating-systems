@@ -1,7 +1,7 @@
 /*
  * MyShell Project for SOFE 3950U / CSCI 3020U: Operating Systems
  *
- * Copyright (C) 2017, <GROUP MEMBERS>
+ * Copyright (C) 2015, <GROUP MEMBERS>
  * All rights reserved.
  * 
  */
@@ -11,5 +11,9 @@
 // Include your relevant functions declarations here they must start with the 
 // extern keyword such as in the following example:
 // extern void display_help(void);
+extern char * change_dir(char * buffer_p, char * direct_p);
+extern void wait(void);
+extern char * read_dir(char * buffer_p, char * direct_p);
+extern void hlp(void);
 
 #endif /* UTILITY_H_ */
