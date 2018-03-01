@@ -102,7 +102,6 @@ void initialize_game(void)
 	questions[11].value = 400;
 	questions[11].answered = false;
 
-	display_categories();
 }
 
 // Displays each of the remaining categories and question dollar values that have not been answered
