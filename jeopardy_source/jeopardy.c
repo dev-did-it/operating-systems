@@ -1,6 +1,7 @@
 /*
  * Tutorial 4 Jeopardy Project 
  * SOFE 3950U Operating Systems
+ * Saisudan Bashkaran, Andre Dallaire, Devante Wilson
  */
 
 #include <stdio.h>
